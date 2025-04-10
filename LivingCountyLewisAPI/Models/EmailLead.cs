@@ -6,15 +6,10 @@ namespace LivingCountyLewisAPI.Models
     public class EmailLead
     {
         [Key]
-        public int Id { get; set; }
-
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; } = string.Empty;
-
-        public string? Area { get; set; }  // ✅ New field for area number
-        public string? Message { get; set; }  // ✅ New field for message
-
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public int Id { get; set; }  // ✅ Must be "Id" and of type int
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public DateTime SubmittedAt { get; set; }
     }
 }
