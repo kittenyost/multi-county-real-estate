@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using LivingCountyLewisAPI.Models;  // ✅ This is likely where your error was
+using LivingCountyLewisAPI.Models;
 
 namespace LivingCountyLewisAPI.Data
 {
@@ -11,7 +11,9 @@ namespace LivingCountyLewisAPI.Data
         }
 
         public DbSet<Listing> Listings { get; set; }
+        public DbSet<EmailLead> EmailLeads { get; set; }
 
-        public DbSet<EmailLead> EmailLeads { get; set; } // ✅ Make sure this line ends with a semicolon
+        // ✅ Add this line for Admins table
+        public DbSet<Admin> Admins { get; set; }
     }
 }

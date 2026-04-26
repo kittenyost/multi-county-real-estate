@@ -38,7 +38,7 @@ if (app.Environment.IsDevelopment())
 // ✅ Apply CORS Policy
 app.UseCors("AllowAllOrigins");
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
