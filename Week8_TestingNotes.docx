@@ -1,0 +1,37 @@
+Week 8 User Feedback Testing Notes
+Tester:
+Family member with web development and user experience familiarity.
+Testing Goals:
+The tester was asked to navigate the website naturally without guidance and interact with the primary features of the application, including navigation, forms, and listings.
+Tasks Tested:
+•	Navigating the home page
+•	Viewing listings
+•	Reviewing the financing page
+•	Using the contact form
+•	Reviewing visual layout and readability
+•	Comparing usability to modern business websites
+Observations During Testing:
+•	The tester was able to navigate the website without major issues.
+•	The tester spent time comparing page layouts and visual consistency.
+•	The tester naturally attempted to interact with forms and navigation elements without instruction.
+User Feedback:
+1.	Financing Page Form
+The tester suggested that the form on the financing page should be redesigned to match the contact form for consistency and improved usability.
+2.	Button Contrast
+The tester noted that the button colors on the financing page blend too much with the background, making the button text difficult to read. The tester recommended increasing contrast by using either lighter or darker button colors.
+3.	Home Page Navigation Improvements
+The tester suggested adding short summaries or descriptions for each major section on the home page and making those sections clickable so users can navigate directly from the descriptions.
+4.	Listing Page Styling
+The tester recommended changing the listing boxes to have a white background because the current gray background reduces readability and visual contrast.
+5.	Industry Comparison
+The tester compared the application to the Velosio website and suggested continuing to improve visual polish and usability to better match modern professional websites.
+Bugs Encountered:
+•	No major functionality bugs were encountered during testing.
+•	Feedback focused primarily on usability, readability, and design improvements.
+Planned Improvements:
+•	Improve consistency between forms
+•	Increase button contrast and readability
+•	Add clickable summary sections to the home page
+•	Improve listing page visual contrast
+•	Continue polishing UI and navigation
+
